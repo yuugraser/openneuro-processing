@@ -6,13 +6,12 @@ import sys
 import logging
 import subprocess
 from pathlib import Path
-from PyQt6.QtWidgets import QApplication, QMessageBox
+from PyQt6.QtWidgets import QApplication
 from PyQt6.QtCore import Qt
 from datetime import datetime
 from gui import MainWindow
 from config import BASE_DIR, create_directories, cleanup_temp
-from fetch_data import check_git_annex
-import errno
+from packaging import version
 
 def setup_logging() -> None:
     """Configure application logging."""
@@ -30,13 +29,35 @@ def setup_logging() -> None:
         ]
     )
 
+def check_git_annex() -> None:
+    """Check if git-annex is installed and meets version requirements."""
+    try:
+        result = subprocess.run(['git-annex', 'version'],
+                              capture_output=True,
+                              text=True)
+
+        if result.returncode != 0:
+            raise RuntimeError("git-annex is not installed")
+
+        version_line = [line for line in result.stdout.split('\n')
+                       if line.startswith('git-annex version:')][0]
+        current_version = version_line.split(':')[1].strip()
+
+        if version.parse(current_version) < version.parse("8.20200309"):
+            raise RuntimeError(
+                f"git-annex version {current_version} is too old. Version >= 8.20200309 required"
+            )
+
+    except FileNotFoundError:
+        raise RuntimeError("git-annex is not installed")
+
 def check_dependencies() -> None:
     """Check required dependencies."""
-    # Check git-annex
-    is_valid, error_msg = check_git_annex()
-    if not is_valid:
+    try:
+        check_git_annex()
+    except RuntimeError as e:
         error_msg = (
-            f"git-annex error: {error_msg}\n\n"
+            f"git-annex error: {str(e)}\n\n"
             "Please install git-annex >= 8.20200309:\n\n"
             "macOS (with Homebrew):\n"
             "    brew install git-annex\n\n"
@@ -63,7 +84,6 @@ def initialize_app() -> None:
         cleanup_temp()
     except Exception as e:
         logging.warning(f"Failed to clean temporary directory: {str(e)}")
-        # Continue even if cleanup fails
 
     create_directories()
     check_dependencies()
@@ -81,9 +101,6 @@ def main() -> None:
         # Create Qt application
         app = QApplication(sys.argv)
         app.setStyle('Fusion')
-        app.setHighDpiScaleFactorRoundingPolicy(
-            Qt.HighDpiScaleFactorRoundingPolicy.PassThrough
-        )
 
         # Create and show main window
         window = MainWindow()
@@ -103,10 +120,7 @@ def main() -> None:
 
     except Exception as e:
         logging.critical(f"Fatal error during application startup: {str(e)}", exc_info=True)
-        if 'app' in locals():
-            QMessageBox.critical(None, "Error", str(e))
-        else:
-            print(f"ERROR: {str(e)}", file=sys.stderr)
+        print(f"ERROR: {str(e)}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":
