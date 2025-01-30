@@ -1,6 +1,6 @@
 # OpenNeuro Data Processing Application
 
-A desktop application for downloading, processing, and analyzing intracranial EEG (iEEG) data from OpenNeuro in BIDS format. The application provides an interface for selecting specific datasets and files, processing them with various neuroscientific analyses, and storing results in AWS S3.
+A desktop application for downloading, processing, and analyzing EEG data from OpenNeuro in BIDS format. The app provides an interface for selecting specific datasets and files, processing them with various neuroscientific analyses, and storing results in AWS S3.
 
 ## Features
 
@@ -34,11 +34,6 @@ sudo apt-get install git-annex
 2. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-3. Configure AWS CLI with your credentials:
-```bash
-aws configure
 ```
 
 ## Directory Structure
@@ -105,8 +100,16 @@ processed/
 
 ## Security
 
-- AWS credentials are handled through AWS CLI configuration
-- Temporary files are cleaned up after processing
+- AWS credentials are handled through your system keyring service.
+- These recommended keyring backends are supported:
+
+    macOS Keychain
+
+    Freedesktop Secret Service supports many DE including GNOME (requires secretstorage)
+
+    KDE4 & KDE5 KWallet (requires dbus)
+
+    Windows Credential Locker
 
 ## Contributing
 
@@ -114,9 +117,12 @@ processed/
 2. Create a feature branch
 3. Submit a pull request
 
-
 ## Acknowledgments
 
 - OpenNeuro for providing the dataset infrastructure
 - DataLad for dataset version control
-- MNE-Python for iEEG processing capabilities
+- MNE-Python for EEG processing capabilities
+
+## License
+
+MIT License. See [LICENSE](./LICENSE) for more details.
