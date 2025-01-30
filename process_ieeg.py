@@ -23,7 +23,11 @@ class IEEGProcessor:
                        process_config: Dict,
                        progress_callback: Optional[callable] = None) -> Dict:
         """
-        Process multiple iEEG files.
+        Process multiple iEEG files with the following options:
+        # 1. Power Spectra Analysis: Calculates frequency content using Welch's method, highlighting dominant frequencies in the data.
+        # 2. Connectivity Analysis: Computes correlations between channels to identify communication between brain regions, producing a connectivity matrix.
+        # 3. Band Powers: Breaks down the signal into standard frequency bands (Delta, Theta, Alpha, Beta, Gamma) for insights into brain activity associated with various cognitive states.
+
 
         Args:
             file_paths: List of file paths (as strings)
