@@ -2,15 +2,13 @@
 Configuration settings for the OpenNeuro Desktop Application.
 """
 from pathlib import Path
+import json
 
 # Base paths
 BASE_DIR = Path(__file__).parent
 TEMP_DIR = BASE_DIR / "temp"
 CACHE_DIR = BASE_DIR / "cache"
-
-# AWS Configuration
-AWS_REGION = "us-east-1"
-S3_BUCKET = "openneuro-datasets"
+CONFIG_FILE = BASE_DIR / "user_config.json"
 
 # Download Configuration
 MAX_CONCURRENT_DOWNLOADS = 4
@@ -26,12 +24,24 @@ FILTER_RANGES = {
     "gamma": (30, 100)
 }
 
-def create_directories() -> None:
+def load_user_config():
+    """Load user configuration from file."""
+    if CONFIG_FILE.exists():
+        with open(CONFIG_FILE, 'r') as f:
+            return json.load(f)
+    return {}
+
+def save_user_config(config):
+    """Save user configuration to file."""
+    with open(CONFIG_FILE, 'w') as f:
+        json.dump(config, f)
+
+def create_directories():
     """Create necessary application directories."""
     TEMP_DIR.mkdir(exist_ok=True)
     CACHE_DIR.mkdir(exist_ok=True)
 
-def cleanup_temp() -> None:
+def cleanup_temp():
     """Clean up temporary files."""
     import shutil
     if TEMP_DIR.exists():

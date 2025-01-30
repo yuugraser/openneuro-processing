@@ -1,5 +1,0 @@
-2025-01-30 13:14:25,093 - root - INFO - Starting OpenNeuro Desktop Application
-2025-01-30 13:14:25,199 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
-2025-01-30 13:14:35,617 - root - ERROR - Error listing dataset files: 404 Client Error: Not Found for url: https://openneuro.org/crn/datasets/ds005691/files
-2025-01-30 13:14:35,617 - root - ERROR - Error getting file structure: Failed to list dataset files: 404 Client Error: Not Found for url: https://openneuro.org/crn/datasets/ds005691/files
-2025-01-30 13:16:59,513 - root - INFO - Application closed normally

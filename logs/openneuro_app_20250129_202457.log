@@ -1,8 +1,0 @@
-2025-01-29 20:24:57,999 - root - INFO - Starting OpenNeuro Desktop Application
-2025-01-29 20:24:58,006 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
-2025-01-29 20:24:58,186 - root - CRITICAL - Fatal error during application startup: type object 'ApplicationAttribute' has no attribute 'AA_EnableHighDpiScaling'
-Traceback (most recent call last):
-  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 72, in main
-    app.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: type object 'ApplicationAttribute' has no attribute 'AA_EnableHighDpiScaling'

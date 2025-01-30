@@ -5,9 +5,7 @@ Handles initialization, logging setup, and application launch.
 import sys
 import logging
 import subprocess
-from pathlib import Path
 from PyQt6.QtWidgets import QApplication
-from PyQt6.QtCore import Qt
 from datetime import datetime
 from gui import MainWindow
 from config import BASE_DIR, create_directories, cleanup_temp
