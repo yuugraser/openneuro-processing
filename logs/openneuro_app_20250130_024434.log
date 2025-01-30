@@ -1,0 +1,1102 @@
+2025-01-30 02:44:34,628 - root - INFO - Starting OpenNeuro Desktop Application
+2025-01-30 02:44:34,769 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-30 02:44:47,466 - datalad.core.distributed.clone - INFO - Attempting a clone into /Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691
+2025-01-30 02:44:47,475 - datalad.core.distributed.clone - INFO - Attempting to clone from https://github.com/OpenNeuroDatasets/ds005691.git to /Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691
+2025-01-30 02:44:48,011 - datalad.gitrepo - INFO - Start enumerating objects
+2025-01-30 02:44:48,012 - datalad.gitrepo - INFO - Finished enumerating objects
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - Start counting objects
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - remote: Counting objects:   0% (1/376)
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - remote: Counting objects:   1% (4/376)
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - remote: Counting objects:   2% (8/376)
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - remote: Counting objects:   3% (12/376)
+2025-01-30 02:44:48,013 - datalad.gitrepo - INFO - remote: Counting objects:   4% (16/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:   5% (19/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:   6% (23/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:   7% (27/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:   8% (31/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:   9% (34/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:  10% (38/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:  11% (42/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:  12% (46/376)
+2025-01-30 02:44:48,014 - datalad.gitrepo - INFO - remote: Counting objects:  13% (49/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  14% (53/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  15% (57/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  16% (61/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  17% (64/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  18% (68/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  19% (72/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  20% (76/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  21% (79/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  22% (83/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  23% (87/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  24% (91/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  25% (94/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  26% (98/376)
+2025-01-30 02:44:48,015 - datalad.gitrepo - INFO - remote: Counting objects:  27% (102/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  28% (106/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  29% (110/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  30% (113/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  31% (117/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  32% (121/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  33% (125/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  34% (128/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  35% (132/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  36% (136/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  37% (140/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  38% (143/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  39% (147/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  40% (151/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  41% (155/376)
+2025-01-30 02:44:48,016 - datalad.gitrepo - INFO - remote: Counting objects:  42% (158/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  43% (162/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  44% (166/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  45% (170/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  46% (173/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  47% (177/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  48% (181/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  49% (185/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  50% (188/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  51% (192/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  52% (196/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  53% (200/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  54% (204/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  55% (207/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  56% (211/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  57% (215/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  58% (219/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  59% (222/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  60% (226/376)
+2025-01-30 02:44:48,017 - datalad.gitrepo - INFO - remote: Counting objects:  61% (230/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  62% (234/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  63% (237/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  64% (241/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  65% (245/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  66% (249/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  67% (252/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  68% (256/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  69% (260/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  70% (264/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  71% (267/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  72% (271/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  73% (275/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  74% (279/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  75% (282/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  76% (286/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  77% (290/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  78% (294/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  79% (298/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  80% (301/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  81% (305/376)
+2025-01-30 02:44:48,018 - datalad.gitrepo - INFO - remote: Counting objects:  82% (309/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  83% (313/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  84% (316/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  85% (320/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  86% (324/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  87% (328/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  88% (331/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  89% (335/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  90% (339/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  91% (343/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  92% (346/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  93% (350/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  94% (354/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  95% (358/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  96% (361/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  97% (365/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  98% (369/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects:  99% (373/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects: 100% (376/376)
+2025-01-30 02:44:48,019 - datalad.gitrepo - INFO - remote: Counting objects: 100% (376/376), done.
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - Finished counting objects
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - Start compressing objects
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   0% (1/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   1% (3/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   2% (5/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   3% (8/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   4% (10/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   5% (12/239)
+2025-01-30 02:44:48,020 - datalad.gitrepo - INFO - remote: Compressing objects:   6% (15/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:   7% (17/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:   8% (20/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:   9% (22/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  10% (24/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  11% (27/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  12% (29/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  13% (32/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  14% (34/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  15% (36/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  16% (39/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  17% (41/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  18% (44/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  19% (46/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  20% (48/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  21% (51/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  22% (53/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  23% (55/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  24% (58/239)
+2025-01-30 02:44:48,021 - datalad.gitrepo - INFO - remote: Compressing objects:  25% (60/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  26% (63/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  27% (65/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  28% (67/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  29% (70/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  30% (72/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  31% (75/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  32% (77/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  33% (79/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  34% (82/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  35% (84/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  36% (87/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  37% (89/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  38% (91/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  39% (94/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  40% (96/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  41% (98/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  42% (101/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  43% (103/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  44% (106/239)
+2025-01-30 02:44:48,022 - datalad.gitrepo - INFO - remote: Compressing objects:  45% (108/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  46% (110/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  47% (113/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  48% (115/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  49% (118/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  50% (120/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  51% (122/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  52% (125/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  53% (127/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  54% (130/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  55% (132/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  56% (134/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  57% (137/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  58% (139/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  59% (142/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  60% (144/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  61% (146/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  62% (149/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  63% (151/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  64% (153/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  65% (156/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  66% (158/239)
+2025-01-30 02:44:48,023 - datalad.gitrepo - INFO - remote: Compressing objects:  67% (161/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  68% (163/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  69% (165/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  70% (168/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  71% (170/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  72% (173/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  73% (175/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  74% (177/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  75% (180/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  76% (182/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  77% (185/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  78% (187/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  79% (189/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  80% (192/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  81% (194/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  82% (196/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  83% (199/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  84% (201/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  85% (204/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  86% (206/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  87% (208/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  88% (211/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  89% (213/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  90% (216/239)
+2025-01-30 02:44:48,024 - datalad.gitrepo - INFO - remote: Compressing objects:  91% (218/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  92% (220/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  93% (223/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  94% (225/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  95% (228/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  96% (230/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  97% (232/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  98% (235/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects:  99% (237/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects: 100% (239/239)
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - remote: Compressing objects: 100% (239/239), done.
+2025-01-30 02:44:48,025 - datalad.gitrepo - INFO - Finished compressing objects
+2025-01-30 02:44:48,030 - datalad.gitrepo - INFO - Start receiving objects
+2025-01-30 02:44:48,031 - datalad.gitrepo - INFO - Receiving objects:   0% (1/376)
+2025-01-30 02:44:48,031 - datalad.gitrepo - INFO - Receiving objects:   1% (4/376)
+2025-01-30 02:44:48,031 - datalad.gitrepo - INFO - Receiving objects:   2% (8/376)
+2025-01-30 02:44:48,031 - datalad.gitrepo - INFO - Receiving objects:   3% (12/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   4% (16/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   5% (19/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   6% (23/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   7% (27/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   8% (31/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:   9% (34/376)
+2025-01-30 02:44:48,032 - datalad.gitrepo - INFO - Receiving objects:  10% (38/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  11% (42/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  12% (46/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  13% (49/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  14% (53/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  15% (57/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  16% (61/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  17% (64/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  18% (68/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  19% (72/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  20% (76/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  21% (79/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  22% (83/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  23% (87/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  24% (91/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  25% (94/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  26% (98/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  27% (102/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  28% (106/376)
+2025-01-30 02:44:48,033 - datalad.gitrepo - INFO - Receiving objects:  29% (110/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  30% (113/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  31% (117/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  32% (121/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  33% (125/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  34% (128/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  35% (132/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  36% (136/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  37% (140/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  38% (143/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  39% (147/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  40% (151/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  41% (155/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  42% (158/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  43% (162/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  44% (166/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  45% (170/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  46% (173/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  47% (177/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  48% (181/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  49% (185/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  50% (188/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  51% (192/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  52% (196/376)
+2025-01-30 02:44:48,034 - datalad.gitrepo - INFO - Receiving objects:  53% (200/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  54% (204/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  55% (207/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  56% (211/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  57% (215/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  58% (219/376)
+2025-01-30 02:44:48,035 - datalad.gitrepo - INFO - Receiving objects:  59% (222/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  60% (226/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  61% (230/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  62% (234/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  63% (237/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  64% (241/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  65% (245/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  66% (249/376)
+2025-01-30 02:44:48,047 - datalad.gitrepo - INFO - Receiving objects:  67% (252/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  68% (256/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  69% (260/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  70% (264/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  71% (267/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  72% (271/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  73% (275/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  74% (279/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  75% (282/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  76% (286/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  77% (290/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  78% (294/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  79% (298/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  80% (301/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  81% (305/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  82% (309/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  83% (313/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  84% (316/376)
+2025-01-30 02:44:48,048 - datalad.gitrepo - INFO - Receiving objects:  85% (320/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  86% (324/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  87% (328/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  88% (331/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  89% (335/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  90% (339/376)
+2025-01-30 02:44:48,051 - datalad.gitrepo - INFO - Receiving objects:  91% (343/376)
+2025-01-30 02:44:48,065 - datalad.gitrepo - INFO - Receiving objects:  92% (346/376)
+2025-01-30 02:44:48,066 - datalad.gitrepo - INFO - Receiving objects:  93% (350/376)
+2025-01-30 02:44:48,066 - datalad.gitrepo - INFO - Receiving objects:  94% (354/376)
+2025-01-30 02:44:48,073 - datalad.gitrepo - INFO - Receiving objects:  95% (358/376)
+2025-01-30 02:44:48,075 - datalad.gitrepo - INFO - Receiving objects:  96% (361/376)
+2025-01-30 02:44:48,084 - datalad.gitrepo - INFO - Receiving objects:  97% (365/376)
+2025-01-30 02:44:48,084 - datalad.gitrepo - INFO - Receiving objects:  98% (369/376)
+2025-01-30 02:44:48,084 - datalad.gitrepo - INFO - Receiving objects:  99% (373/376)
+2025-01-30 02:44:48,086 - datalad.gitrepo - INFO - Receiving objects: 100% (376/376)
+2025-01-30 02:44:48,086 - datalad.gitrepo - INFO - Receiving objects: 100% (376/376), 188.80 KiB | 3.37 MiB/s, done.
+2025-01-30 02:44:48,086 - datalad.gitrepo - INFO - Finished receiving objects
+2025-01-30 02:44:48,089 - datalad.gitrepo - INFO - Start resolving deltas
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:   0% (0/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:   3% (2/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:   5% (3/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:   7% (4/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:   9% (5/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:  11% (6/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:  12% (7/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:  16% (9/54)
+2025-01-30 02:44:48,090 - datalad.gitrepo - INFO - Resolving deltas:  18% (10/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  20% (11/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  22% (12/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  24% (13/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  27% (15/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  29% (16/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  31% (17/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  33% (18/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  35% (19/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  38% (21/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  42% (23/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  44% (24/54)
+2025-01-30 02:44:48,091 - datalad.gitrepo - INFO - Resolving deltas:  46% (25/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  48% (26/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  50% (27/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  51% (28/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  53% (29/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  55% (30/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  57% (31/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  59% (32/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  61% (33/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  62% (34/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  64% (35/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  66% (36/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  72% (39/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  74% (40/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  75% (41/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  77% (42/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  79% (43/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  81% (44/54)
+2025-01-30 02:44:48,096 - datalad.gitrepo - INFO - Resolving deltas:  83% (45/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  85% (46/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  87% (47/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  88% (48/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  90% (49/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  92% (50/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  94% (51/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  96% (52/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas:  98% (53/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas: 100% (54/54)
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Resolving deltas: 100% (54/54), done.
+2025-01-30 02:44:48,097 - datalad.gitrepo - INFO - Finished resolving deltas
+2025-01-30 02:44:48,137 - datalad.core.distributed.clone - INFO - Completed clone attempts for Dataset(/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691)
+2025-01-30 02:44:48,994 - datalad.annex - INFO    - Remote origin not usable by git-annex; setting annex-ignore
+2025-01-30 02:44:49,024 - datalad.annex - INFO    - https://github.com/OpenNeuroDatasets/ds005691.git/config download failed: Not Found
+2025-01-30 02:44:49,200 - datalad.distribution.get - INFO    - Ensuring presence of Dataset(/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691) to get /Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691
+2025-01-30 02:44:49,200 - datalad.distribution.get - INFO - Installing: starting
+2025-01-30 02:44:49,202 - datalad.distribution.get - INFO - Installing: done
+2025-01-30 02:44:50,216 - datalad.annex - INFO - Start annex operation
+2025-01-30 02:44:50,979 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81376400--06a1bc84d260a6af4600e027bd84d0208c6245309506a94e8ccfe9c9e377aa62.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:50,980 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:50,980 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:51,087 - datalad.annex - INFO - 0.04%
+2025-01-30 02:44:51,088 - datalad.annex - INFO - 0.04%
+2025-01-30 02:44:51,196 - datalad.annex - INFO - 0.11%
+2025-01-30 02:44:51,197 - datalad.annex - INFO - 0.11%
+2025-01-30 02:44:51,296 - datalad.annex - INFO - 0.36%
+2025-01-30 02:44:51,296 - datalad.annex - INFO - 0.37%
+2025-01-30 02:44:51,395 - datalad.annex - INFO - 0.54%
+2025-01-30 02:44:51,400 - datalad.annex - INFO - 0.56%
+2025-01-30 02:44:51,498 - datalad.annex - INFO - 1.07%
+2025-01-30 02:44:51,502 - datalad.annex - INFO - 1.09%
+2025-01-30 02:44:51,605 - datalad.annex - INFO - 2.14%
+2025-01-30 02:44:51,605 - datalad.annex - INFO - 2.14%
+2025-01-30 02:44:51,712 - datalad.annex - INFO - 4.31%
+2025-01-30 02:44:51,712 - datalad.annex - INFO - 4.31%
+2025-01-30 02:44:51,812 - datalad.annex - INFO - 7.77%
+2025-01-30 02:44:51,812 - datalad.annex - INFO - 7.77%
+2025-01-30 02:44:51,912 - datalad.annex - INFO - 11.02%
+2025-01-30 02:44:51,912 - datalad.annex - INFO - 11.02%
+2025-01-30 02:44:52,013 - datalad.annex - INFO - 14.08%
+2025-01-30 02:44:52,013 - datalad.annex - INFO - 14.08%
+2025-01-30 02:44:52,113 - datalad.annex - INFO - 17.22%
+2025-01-30 02:44:52,113 - datalad.annex - INFO - 17.22%
+2025-01-30 02:44:52,216 - datalad.annex - INFO - 20.28%
+2025-01-30 02:44:52,216 - datalad.annex - INFO - 20.28%
+2025-01-30 02:44:52,317 - datalad.annex - INFO - 24.32%
+2025-01-30 02:44:52,317 - datalad.annex - INFO - 24.32%
+2025-01-30 02:44:52,417 - datalad.annex - INFO - 27.38%
+2025-01-30 02:44:52,417 - datalad.annex - INFO - 27.38%
+2025-01-30 02:44:52,518 - datalad.annex - INFO - 30.34%
+2025-01-30 02:44:52,518 - datalad.annex - INFO - 30.34%
+2025-01-30 02:44:52,618 - datalad.annex - INFO - 34.29%
+2025-01-30 02:44:52,618 - datalad.annex - INFO - 34.29%
+2025-01-30 02:44:52,718 - datalad.annex - INFO - 37.21%
+2025-01-30 02:44:52,718 - datalad.annex - INFO - 37.21%
+2025-01-30 02:44:52,818 - datalad.annex - INFO - 40.19%
+2025-01-30 02:44:52,818 - datalad.annex - INFO - 40.19%
+2025-01-30 02:44:52,918 - datalad.annex - INFO - 43.41%
+2025-01-30 02:44:52,918 - datalad.annex - INFO - 43.41%
+2025-01-30 02:44:53,042 - datalad.annex - INFO - 47.26%
+2025-01-30 02:44:53,043 - datalad.annex - INFO - 47.26%
+2025-01-30 02:44:53,156 - datalad.annex - INFO - 50.96%
+2025-01-30 02:44:53,157 - datalad.annex - INFO - 50.96%
+2025-01-30 02:44:53,256 - datalad.annex - INFO - 54.67%
+2025-01-30 02:44:53,257 - datalad.annex - INFO - 54.67%
+2025-01-30 02:44:53,356 - datalad.annex - INFO - 58.35%
+2025-01-30 02:44:53,357 - datalad.annex - INFO - 58.35%
+2025-01-30 02:44:53,457 - datalad.annex - INFO - 61.67%
+2025-01-30 02:44:53,457 - datalad.annex - INFO - 61.67%
+2025-01-30 02:44:53,557 - datalad.annex - INFO - 64.65%
+2025-01-30 02:44:53,557 - datalad.annex - INFO - 64.65%
+2025-01-30 02:44:53,663 - datalad.annex - INFO - 67.85%
+2025-01-30 02:44:53,663 - datalad.annex - INFO - 67.85%
+2025-01-30 02:44:53,778 - datalad.annex - INFO - 71.44%
+2025-01-30 02:44:53,779 - datalad.annex - INFO - 71.44%
+2025-01-30 02:44:53,879 - datalad.annex - INFO - 75.22%
+2025-01-30 02:44:53,879 - datalad.annex - INFO - 75.22%
+2025-01-30 02:44:53,979 - datalad.annex - INFO - 78.16%
+2025-01-30 02:44:53,979 - datalad.annex - INFO - 78.16%
+2025-01-30 02:44:54,080 - datalad.annex - INFO - 81.48%
+2025-01-30 02:44:54,080 - datalad.annex - INFO - 81.48%
+2025-01-30 02:44:54,180 - datalad.annex - INFO - 84.44%
+2025-01-30 02:44:54,180 - datalad.annex - INFO - 84.44%
+2025-01-30 02:44:54,280 - datalad.annex - INFO - 87.28%
+2025-01-30 02:44:54,280 - datalad.annex - INFO - 87.28%
+2025-01-30 02:44:54,386 - datalad.annex - INFO - 90.18%
+2025-01-30 02:44:54,386 - datalad.annex - INFO - 90.18%
+2025-01-30 02:44:54,502 - datalad.annex - INFO - 93.56%
+2025-01-30 02:44:54,502 - datalad.annex - INFO - 93.56%
+2025-01-30 02:44:54,631 - datalad.annex - INFO - 97.37%
+2025-01-30 02:44:54,631 - datalad.annex - INFO - 97.37%
+2025-01-30 02:44:54,696 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81376400--06a1bc84d260a6af4600e027bd84d0208c6245309506a94e8ccfe9c9e377aa62.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:54,696 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81376400--06a1bc84d260a6af4600e027bd84d0208c6245309506a94e8ccfe9c9e377aa62.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:54,696 - datalad.annex - INFO - 100%
+2025-01-30 02:44:54,759 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:44:54,759 - datalad.annex - INFO - sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg
+2025-01-30 02:44:54,890 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2220--2f7e846bd46d2df668f90c4e291996767a42511c30c1d392458982f242096e4c.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:54,891 - datalad.annex - INFO - 100%
+2025-01-30 02:44:54,891 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2220--2f7e846bd46d2df668f90c4e291996767a42511c30c1d392458982f242096e4c.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:54,895 - datalad.annex - INFO - sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:44:55,081 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--1987828c4c4a2c23d6531210ad6b7f4a3c560bfce5a028da138b8d2f1ae69e3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:55,081 - datalad.annex - INFO - 27.09%
+2025-01-30 02:44:55,081 - datalad.annex - INFO - 27.09%
+2025-01-30 02:44:55,083 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--1987828c4c4a2c23d6531210ad6b7f4a3c560bfce5a028da138b8d2f1ae69e3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:55,084 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--1987828c4c4a2c23d6531210ad6b7f4a3c560bfce5a028da138b8d2f1ae69e3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:55,084 - datalad.annex - INFO - 100%
+2025-01-30 02:44:55,088 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:44:55,088 - datalad.annex - INFO - sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:44:55,321 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s96570600--85af3a55f8e6690b6514f03074d020ad3aaf1e4ac9b251dcdf70441cc1151168.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:55,321 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:55,322 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:55,420 - datalad.annex - INFO - 3.57%
+2025-01-30 02:44:55,420 - datalad.annex - INFO - 3.57%
+2025-01-30 02:44:55,521 - datalad.annex - INFO - 6.08%
+2025-01-30 02:44:55,521 - datalad.annex - INFO - 6.08%
+2025-01-30 02:44:55,628 - datalad.annex - INFO - 8.67%
+2025-01-30 02:44:55,628 - datalad.annex - INFO - 8.67%
+2025-01-30 02:44:55,729 - datalad.annex - INFO - 11.93%
+2025-01-30 02:44:55,730 - datalad.annex - INFO - 11.93%
+2025-01-30 02:44:55,830 - datalad.annex - INFO - 14.49%
+2025-01-30 02:44:55,830 - datalad.annex - INFO - 14.49%
+2025-01-30 02:44:55,930 - datalad.annex - INFO - 16.95%
+2025-01-30 02:44:55,930 - datalad.annex - INFO - 16.95%
+2025-01-30 02:44:56,030 - datalad.annex - INFO - 19.7%
+2025-01-30 02:44:56,030 - datalad.annex - INFO - 19.7%
+2025-01-30 02:44:56,130 - datalad.annex - INFO - 22.26%
+2025-01-30 02:44:56,130 - datalad.annex - INFO - 22.26%
+2025-01-30 02:44:56,230 - datalad.annex - INFO - 25.3%
+2025-01-30 02:44:56,231 - datalad.annex - INFO - 25.3%
+2025-01-30 02:44:56,336 - datalad.annex - INFO - 27.76%
+2025-01-30 02:44:56,336 - datalad.annex - INFO - 27.76%
+2025-01-30 02:44:56,436 - datalad.annex - INFO - 30.8%
+2025-01-30 02:44:56,437 - datalad.annex - INFO - 30.8%
+2025-01-30 02:44:56,536 - datalad.annex - INFO - 33.48%
+2025-01-30 02:44:56,536 - datalad.annex - INFO - 33.48%
+2025-01-30 02:44:56,636 - datalad.annex - INFO - 36.31%
+2025-01-30 02:44:56,637 - datalad.annex - INFO - 36.31%
+2025-01-30 02:44:56,737 - datalad.annex - INFO - 38.85%
+2025-01-30 02:44:56,737 - datalad.annex - INFO - 38.85%
+2025-01-30 02:44:56,837 - datalad.annex - INFO - 41.31%
+2025-01-30 02:44:56,837 - datalad.annex - INFO - 41.31%
+2025-01-30 02:44:56,937 - datalad.annex - INFO - 44.33%
+2025-01-30 02:44:56,938 - datalad.annex - INFO - 44.33%
+2025-01-30 02:44:57,037 - datalad.annex - INFO - 47.2%
+2025-01-30 02:44:57,038 - datalad.annex - INFO - 47.2%
+2025-01-30 02:44:57,138 - datalad.annex - INFO - 50.12%
+2025-01-30 02:44:57,138 - datalad.annex - INFO - 50.12%
+2025-01-30 02:44:57,239 - datalad.annex - INFO - 52.82%
+2025-01-30 02:44:57,239 - datalad.annex - INFO - 52.82%
+2025-01-30 02:44:57,339 - datalad.annex - INFO - 55.62%
+2025-01-30 02:44:57,339 - datalad.annex - INFO - 55.62%
+2025-01-30 02:44:57,449 - datalad.annex - INFO - 58.4%
+2025-01-30 02:44:57,449 - datalad.annex - INFO - 58.4%
+2025-01-30 02:44:57,564 - datalad.annex - INFO - 61.37%
+2025-01-30 02:44:57,564 - datalad.annex - INFO - 61.37%
+2025-01-30 02:44:57,664 - datalad.annex - INFO - 64.71%
+2025-01-30 02:44:57,664 - datalad.annex - INFO - 64.71%
+2025-01-30 02:44:57,764 - datalad.annex - INFO - 67.27%
+2025-01-30 02:44:57,764 - datalad.annex - INFO - 67.27%
+2025-01-30 02:44:57,864 - datalad.annex - INFO - 69.92%
+2025-01-30 02:44:57,865 - datalad.annex - INFO - 69.92%
+2025-01-30 02:44:57,965 - datalad.annex - INFO - 72.63%
+2025-01-30 02:44:57,965 - datalad.annex - INFO - 72.63%
+2025-01-30 02:44:58,066 - datalad.annex - INFO - 74.94%
+2025-01-30 02:44:58,066 - datalad.annex - INFO - 74.94%
+2025-01-30 02:44:58,166 - datalad.annex - INFO - 78.33%
+2025-01-30 02:44:58,166 - datalad.annex - INFO - 78.33%
+2025-01-30 02:44:58,266 - datalad.annex - INFO - 80.91%
+2025-01-30 02:44:58,266 - datalad.annex - INFO - 80.91%
+2025-01-30 02:44:58,366 - datalad.annex - INFO - 83.49%
+2025-01-30 02:44:58,366 - datalad.annex - INFO - 83.49%
+2025-01-30 02:44:58,466 - datalad.annex - INFO - 86.12%
+2025-01-30 02:44:58,466 - datalad.annex - INFO - 86.12%
+2025-01-30 02:44:58,577 - datalad.annex - INFO - 89.01%
+2025-01-30 02:44:58,577 - datalad.annex - INFO - 89.01%
+2025-01-30 02:44:58,678 - datalad.annex - INFO - 92.16%
+2025-01-30 02:44:58,678 - datalad.annex - INFO - 92.16%
+2025-01-30 02:44:58,779 - datalad.annex - INFO - 94.71%
+2025-01-30 02:44:58,779 - datalad.annex - INFO - 94.71%
+2025-01-30 02:44:58,884 - datalad.annex - INFO - 97.28%
+2025-01-30 02:44:58,885 - datalad.annex - INFO - 97.28%
+2025-01-30 02:44:58,973 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s96570600--85af3a55f8e6690b6514f03074d020ad3aaf1e4ac9b251dcdf70441cc1151168.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:58,973 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s96570600--85af3a55f8e6690b6514f03074d020ad3aaf1e4ac9b251dcdf70441cc1151168.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:58,974 - datalad.annex - INFO - 100%
+2025-01-30 02:44:58,975 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:44:58,975 - datalad.annex - INFO - sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg
+2025-01-30 02:44:59,135 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--5d6bcb609bdd676ac25bf0538d1e7eb392b31b1e52263c02bf6690f5c10e50dc.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,136 - datalad.annex - INFO - 100%
+2025-01-30 02:44:59,136 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--5d6bcb609bdd676ac25bf0538d1e7eb392b31b1e52263c02bf6690f5c10e50dc.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,140 - datalad.annex - INFO - sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:44:59,276 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--302d3a544aff4ae7559696133c1c8e086f9c7720d5885e55b193b7f7f6954a3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,276 - datalad.annex - INFO - 27.1%
+2025-01-30 02:44:59,276 - datalad.annex - INFO - 27.1%
+2025-01-30 02:44:59,281 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--302d3a544aff4ae7559696133c1c8e086f9c7720d5885e55b193b7f7f6954a3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,281 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--302d3a544aff4ae7559696133c1c8e086f9c7720d5885e55b193b7f7f6954a3c.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,282 - datalad.annex - INFO - 100%
+2025-01-30 02:44:59,286 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:44:59,286 - datalad.annex - INFO - sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:44:59,509 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s86279900--1cf483e9779c29f4cab6aeb84c40c811d097c66770d9c657c1e1629c6f6932b8.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:44:59,510 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:59,511 - datalad.annex - INFO - 0.02%
+2025-01-30 02:44:59,605 - datalad.annex - INFO - 3.94%
+2025-01-30 02:44:59,607 - datalad.annex - INFO - 4%
+2025-01-30 02:44:59,705 - datalad.annex - INFO - 6.86%
+2025-01-30 02:44:59,708 - datalad.annex - INFO - 6.96%
+2025-01-30 02:44:59,813 - datalad.annex - INFO - 9.83%
+2025-01-30 02:44:59,813 - datalad.annex - INFO - 9.83%
+2025-01-30 02:44:59,913 - datalad.annex - INFO - 12.9%
+2025-01-30 02:44:59,914 - datalad.annex - INFO - 12.9%
+2025-01-30 02:45:00,019 - datalad.annex - INFO - 16%
+2025-01-30 02:45:00,020 - datalad.annex - INFO - 16%
+2025-01-30 02:45:00,120 - datalad.annex - INFO - 19.38%
+2025-01-30 02:45:00,120 - datalad.annex - INFO - 19.38%
+2025-01-30 02:45:00,220 - datalad.annex - INFO - 22.61%
+2025-01-30 02:45:00,221 - datalad.annex - INFO - 22.61%
+2025-01-30 02:45:00,321 - datalad.annex - INFO - 25.91%
+2025-01-30 02:45:00,321 - datalad.annex - INFO - 25.91%
+2025-01-30 02:45:00,421 - datalad.annex - INFO - 28.63%
+2025-01-30 02:45:00,421 - datalad.annex - INFO - 28.63%
+2025-01-30 02:45:00,522 - datalad.annex - INFO - 32.08%
+2025-01-30 02:45:00,522 - datalad.annex - INFO - 32.08%
+2025-01-30 02:45:00,622 - datalad.annex - INFO - 34.8%
+2025-01-30 02:45:00,622 - datalad.annex - INFO - 34.8%
+2025-01-30 02:45:00,722 - datalad.annex - INFO - 37.93%
+2025-01-30 02:45:00,723 - datalad.annex - INFO - 37.93%
+2025-01-30 02:45:00,823 - datalad.annex - INFO - 41.01%
+2025-01-30 02:45:00,823 - datalad.annex - INFO - 41.01%
+2025-01-30 02:45:00,923 - datalad.annex - INFO - 43.66%
+2025-01-30 02:45:00,923 - datalad.annex - INFO - 43.66%
+2025-01-30 02:45:01,023 - datalad.annex - INFO - 46.97%
+2025-01-30 02:45:01,023 - datalad.annex - INFO - 46.97%
+2025-01-30 02:45:01,123 - datalad.annex - INFO - 49.87%
+2025-01-30 02:45:01,123 - datalad.annex - INFO - 49.87%
+2025-01-30 02:45:01,223 - datalad.annex - INFO - 53.01%
+2025-01-30 02:45:01,224 - datalad.annex - INFO - 53.01%
+2025-01-30 02:45:01,323 - datalad.annex - INFO - 55.72%
+2025-01-30 02:45:01,324 - datalad.annex - INFO - 55.72%
+2025-01-30 02:45:01,437 - datalad.annex - INFO - 59.41%
+2025-01-30 02:45:01,437 - datalad.annex - INFO - 59.41%
+2025-01-30 02:45:01,539 - datalad.annex - INFO - 62.73%
+2025-01-30 02:45:01,539 - datalad.annex - INFO - 62.73%
+2025-01-30 02:45:01,639 - datalad.annex - INFO - 65.71%
+2025-01-30 02:45:01,640 - datalad.annex - INFO - 65.71%
+2025-01-30 02:45:01,763 - datalad.annex - INFO - 68.96%
+2025-01-30 02:45:01,763 - datalad.annex - INFO - 68.96%
+2025-01-30 02:45:01,863 - datalad.annex - INFO - 72.74%
+2025-01-30 02:45:01,863 - datalad.annex - INFO - 72.74%
+2025-01-30 02:45:01,963 - datalad.annex - INFO - 75.62%
+2025-01-30 02:45:01,963 - datalad.annex - INFO - 75.62%
+2025-01-30 02:45:02,064 - datalad.annex - INFO - 78.47%
+2025-01-30 02:45:02,064 - datalad.annex - INFO - 78.47%
+2025-01-30 02:45:02,164 - datalad.annex - INFO - 81.4%
+2025-01-30 02:45:02,164 - datalad.annex - INFO - 81.4%
+2025-01-30 02:45:02,265 - datalad.annex - INFO - 84.97%
+2025-01-30 02:45:02,265 - datalad.annex - INFO - 84.97%
+2025-01-30 02:45:02,365 - datalad.annex - INFO - 87.83%
+2025-01-30 02:45:02,366 - datalad.annex - INFO - 87.83%
+2025-01-30 02:45:02,466 - datalad.annex - INFO - 90.66%
+2025-01-30 02:45:02,466 - datalad.annex - INFO - 90.66%
+2025-01-30 02:45:02,577 - datalad.annex - INFO - 93.76%
+2025-01-30 02:45:02,578 - datalad.annex - INFO - 93.76%
+2025-01-30 02:45:02,693 - datalad.annex - INFO - 97.2%
+2025-01-30 02:45:02,693 - datalad.annex - INFO - 97.2%
+2025-01-30 02:45:02,769 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s86279900--1cf483e9779c29f4cab6aeb84c40c811d097c66770d9c657c1e1629c6f6932b8.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:02,769 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s86279900--1cf483e9779c29f4cab6aeb84c40c811d097c66770d9c657c1e1629c6f6932b8.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:02,769 - datalad.annex - INFO - 100%
+2025-01-30 02:45:02,771 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:02,771 - datalad.annex - INFO - sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:02,897 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--82454d44ead02f68ae7543b603c542340d1b47a4fff38ac69a6fd2986aa94e93.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:02,897 - datalad.annex - INFO - 100%
+2025-01-30 02:45:02,897 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--82454d44ead02f68ae7543b603c542340d1b47a4fff38ac69a6fd2986aa94e93.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:02,900 - datalad.annex - INFO - sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:03,046 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--728364fb116819244399fb63ccdc512303369653a9f94e05b8c9b210f3c6eb47.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:03,048 - datalad.annex - INFO - 27.09%
+2025-01-30 02:45:03,049 - datalad.annex - INFO - 27.09%
+2025-01-30 02:45:03,052 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--728364fb116819244399fb63ccdc512303369653a9f94e05b8c9b210f3c6eb47.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:03,053 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60481--728364fb116819244399fb63ccdc512303369653a9f94e05b8c9b210f3c6eb47.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:03,054 - datalad.annex - INFO - 100%
+2025-01-30 02:45:03,057 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:03,058 - datalad.annex - INFO - sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:45:03,330 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81832800--1a87292bc3ef532e0d82bdaa4eabdbde2946f8451cbc0bc150ecd4fdb7e9aa5e.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:03,330 - datalad.annex - INFO - 0.02%
+2025-01-30 02:45:03,331 - datalad.annex - INFO - 0.02%
+2025-01-30 02:45:03,430 - datalad.annex - INFO - 4.21%
+2025-01-30 02:45:03,430 - datalad.annex - INFO - 4.21%
+2025-01-30 02:45:03,530 - datalad.annex - INFO - 7.25%
+2025-01-30 02:45:03,530 - datalad.annex - INFO - 7.25%
+2025-01-30 02:45:03,630 - datalad.annex - INFO - 10.16%
+2025-01-30 02:45:03,631 - datalad.annex - INFO - 10.16%
+2025-01-30 02:45:03,744 - datalad.annex - INFO - 13.68%
+2025-01-30 02:45:03,744 - datalad.annex - INFO - 13.68%
+2025-01-30 02:45:03,845 - datalad.annex - INFO - 17.62%
+2025-01-30 02:45:03,845 - datalad.annex - INFO - 17.62%
+2025-01-30 02:45:03,945 - datalad.annex - INFO - 20.71%
+2025-01-30 02:45:03,945 - datalad.annex - INFO - 20.71%
+2025-01-30 02:45:04,045 - datalad.annex - INFO - 23.83%
+2025-01-30 02:45:04,045 - datalad.annex - INFO - 23.83%
+2025-01-30 02:45:04,158 - datalad.annex - INFO - 27.33%
+2025-01-30 02:45:04,159 - datalad.annex - INFO - 27.33%
+2025-01-30 02:45:04,273 - datalad.annex - INFO - 30.86%
+2025-01-30 02:45:04,273 - datalad.annex - INFO - 30.86%
+2025-01-30 02:45:04,373 - datalad.annex - INFO - 34.6%
+2025-01-30 02:45:04,373 - datalad.annex - INFO - 34.6%
+2025-01-30 02:45:04,474 - datalad.annex - INFO - 37.08%
+2025-01-30 02:45:04,474 - datalad.annex - INFO - 37.08%
+2025-01-30 02:45:04,588 - datalad.annex - INFO - 40.21%
+2025-01-30 02:45:04,588 - datalad.annex - INFO - 40.21%
+2025-01-30 02:45:04,688 - datalad.annex - INFO - 44.17%
+2025-01-30 02:45:04,688 - datalad.annex - INFO - 44.17%
+2025-01-30 02:45:04,788 - datalad.annex - INFO - 47.13%
+2025-01-30 02:45:04,788 - datalad.annex - INFO - 47.13%
+2025-01-30 02:45:04,888 - datalad.annex - INFO - 50.1%
+2025-01-30 02:45:04,889 - datalad.annex - INFO - 50.1%
+2025-01-30 02:45:05,011 - datalad.annex - INFO - 53.8%
+2025-01-30 02:45:05,011 - datalad.annex - INFO - 53.8%
+2025-01-30 02:45:05,130 - datalad.annex - INFO - 57.59%
+2025-01-30 02:45:05,130 - datalad.annex - INFO - 57.59%
+2025-01-30 02:45:05,230 - datalad.annex - INFO - 60.79%
+2025-01-30 02:45:05,230 - datalad.annex - INFO - 60.79%
+2025-01-30 02:45:05,348 - datalad.annex - INFO - 64.21%
+2025-01-30 02:45:05,349 - datalad.annex - INFO - 64.21%
+2025-01-30 02:45:05,448 - datalad.annex - INFO - 68.18%
+2025-01-30 02:45:05,448 - datalad.annex - INFO - 68.18%
+2025-01-30 02:45:05,549 - datalad.annex - INFO - 70.92%
+2025-01-30 02:45:05,549 - datalad.annex - INFO - 70.92%
+2025-01-30 02:45:05,649 - datalad.annex - INFO - 73.94%
+2025-01-30 02:45:05,650 - datalad.annex - INFO - 73.94%
+2025-01-30 02:45:05,749 - datalad.annex - INFO - 77.77%
+2025-01-30 02:45:05,749 - datalad.annex - INFO - 77.77%
+2025-01-30 02:45:05,849 - datalad.annex - INFO - 80.77%
+2025-01-30 02:45:05,849 - datalad.annex - INFO - 80.77%
+2025-01-30 02:45:05,949 - datalad.annex - INFO - 83.83%
+2025-01-30 02:45:05,949 - datalad.annex - INFO - 83.83%
+2025-01-30 02:45:06,049 - datalad.annex - INFO - 87.64%
+2025-01-30 02:45:06,050 - datalad.annex - INFO - 87.64%
+2025-01-30 02:45:06,150 - datalad.annex - INFO - 89.96%
+2025-01-30 02:45:06,150 - datalad.annex - INFO - 89.96%
+2025-01-30 02:45:06,250 - datalad.annex - INFO - 93.6%
+2025-01-30 02:45:06,250 - datalad.annex - INFO - 93.6%
+2025-01-30 02:45:06,353 - datalad.annex - INFO - 96.71%
+2025-01-30 02:45:06,353 - datalad.annex - INFO - 96.71%
+2025-01-30 02:45:06,453 - datalad.annex - INFO - 99.83%
+2025-01-30 02:45:06,454 - datalad.annex - INFO - 99.83%
+2025-01-30 02:45:06,458 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81832800--1a87292bc3ef532e0d82bdaa4eabdbde2946f8451cbc0bc150ecd4fdb7e9aa5e.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,458 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s81832800--1a87292bc3ef532e0d82bdaa4eabdbde2946f8451cbc0bc150ecd4fdb7e9aa5e.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,458 - datalad.annex - INFO - 100%
+2025-01-30 02:45:06,461 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:06,461 - datalad.annex - INFO - sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:06,628 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--46860061c7faf6100bc60887e39a62f6267c94d23fd77514ff8d59304eb959c9.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,628 - datalad.annex - INFO - 100%
+2025-01-30 02:45:06,628 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2162--46860061c7faf6100bc60887e39a62f6267c94d23fd77514ff8d59304eb959c9.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,632 - datalad.annex - INFO - sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:06,780 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--9102e9e8763ba870251087f4942b624e7876644920a6e17d46049dba6ac4fb9b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,780 - datalad.annex - INFO - 27.1%
+2025-01-30 02:45:06,781 - datalad.annex - INFO - 27.1%
+2025-01-30 02:45:06,785 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--9102e9e8763ba870251087f4942b624e7876644920a6e17d46049dba6ac4fb9b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,785 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60462--9102e9e8763ba870251087f4942b624e7876644920a6e17d46049dba6ac4fb9b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,785 - datalad.annex - INFO - 100%
+2025-01-30 02:45:06,789 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:06,789 - datalad.annex - INFO - sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:45:06,997 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s56072800--9d1e8b35ba46cdee2ea10a4e31554740c5a93b9a7a1d2ebc4444c06671189e53.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:06,998 - datalad.annex - INFO - 0.03%
+2025-01-30 02:45:06,998 - datalad.annex - INFO - 0.03%
+2025-01-30 02:45:07,098 - datalad.annex - INFO - 5.91%
+2025-01-30 02:45:07,098 - datalad.annex - INFO - 5.91%
+2025-01-30 02:45:07,198 - datalad.annex - INFO - 10.03%
+2025-01-30 02:45:07,198 - datalad.annex - INFO - 10.03%
+2025-01-30 02:45:07,298 - datalad.annex - INFO - 14.56%
+2025-01-30 02:45:07,298 - datalad.annex - INFO - 14.56%
+2025-01-30 02:45:07,405 - datalad.annex - INFO - 19.67%
+2025-01-30 02:45:07,405 - datalad.annex - INFO - 19.67%
+2025-01-30 02:45:07,506 - datalad.annex - INFO - 24.96%
+2025-01-30 02:45:07,506 - datalad.annex - INFO - 24.96%
+2025-01-30 02:45:07,607 - datalad.annex - INFO - 29.7%
+2025-01-30 02:45:07,607 - datalad.annex - INFO - 29.7%
+2025-01-30 02:45:07,712 - datalad.annex - INFO - 34.34%
+2025-01-30 02:45:07,712 - datalad.annex - INFO - 34.34%
+2025-01-30 02:45:07,825 - datalad.annex - INFO - 39.57%
+2025-01-30 02:45:07,825 - datalad.annex - INFO - 39.57%
+2025-01-30 02:45:07,943 - datalad.annex - INFO - 44.63%
+2025-01-30 02:45:07,944 - datalad.annex - INFO - 44.63%
+2025-01-30 02:45:08,043 - datalad.annex - INFO - 50.21%
+2025-01-30 02:45:08,044 - datalad.annex - INFO - 50.21%
+2025-01-30 02:45:08,143 - datalad.annex - INFO - 54.56%
+2025-01-30 02:45:08,143 - datalad.annex - INFO - 54.56%
+2025-01-30 02:45:08,244 - datalad.annex - INFO - 58.56%
+2025-01-30 02:45:08,244 - datalad.annex - INFO - 58.56%
+2025-01-30 02:45:08,345 - datalad.annex - INFO - 63.82%
+2025-01-30 02:45:08,345 - datalad.annex - INFO - 63.82%
+2025-01-30 02:45:08,445 - datalad.annex - INFO - 68.44%
+2025-01-30 02:45:08,445 - datalad.annex - INFO - 68.44%
+2025-01-30 02:45:08,546 - datalad.annex - INFO - 72.82%
+2025-01-30 02:45:08,546 - datalad.annex - INFO - 72.82%
+2025-01-30 02:45:08,646 - datalad.annex - INFO - 77.12%
+2025-01-30 02:45:08,646 - datalad.annex - INFO - 77.12%
+2025-01-30 02:45:08,747 - datalad.annex - INFO - 82.76%
+2025-01-30 02:45:08,747 - datalad.annex - INFO - 82.76%
+2025-01-30 02:45:08,847 - datalad.annex - INFO - 86.29%
+2025-01-30 02:45:08,847 - datalad.annex - INFO - 86.29%
+2025-01-30 02:45:08,947 - datalad.annex - INFO - 90.73%
+2025-01-30 02:45:08,947 - datalad.annex - INFO - 90.73%
+2025-01-30 02:45:09,048 - datalad.annex - INFO - 95.09%
+2025-01-30 02:45:09,048 - datalad.annex - INFO - 95.09%
+2025-01-30 02:45:09,148 - datalad.annex - INFO - 99.47%
+2025-01-30 02:45:09,148 - datalad.annex - INFO - 99.47%
+2025-01-30 02:45:09,159 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s56072800--9d1e8b35ba46cdee2ea10a4e31554740c5a93b9a7a1d2ebc4444c06671189e53.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,159 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s56072800--9d1e8b35ba46cdee2ea10a4e31554740c5a93b9a7a1d2ebc4444c06671189e53.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,159 - datalad.annex - INFO - 100%
+2025-01-30 02:45:09,161 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:09,161 - datalad.annex - INFO - sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:09,409 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2591--64455f58112d9fbac1bb84b093e38be3c21cd6c05a9f6cd9c151fbc5b63f27fe.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,410 - datalad.annex - INFO - 100%
+2025-01-30 02:45:09,410 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2591--64455f58112d9fbac1bb84b093e38be3c21cd6c05a9f6cd9c151fbc5b63f27fe.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,414 - datalad.annex - INFO - sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:09,597 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s39990--598144d239cf12f704a147579281bc5690216776988bc6b6b0c27f73804f537b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,599 - datalad.annex - INFO - 40.97%
+2025-01-30 02:45:09,599 - datalad.annex - INFO - 40.97%
+2025-01-30 02:45:09,600 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s39990--598144d239cf12f704a147579281bc5690216776988bc6b6b0c27f73804f537b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,600 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s39990--598144d239cf12f704a147579281bc5690216776988bc6b6b0c27f73804f537b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,601 - datalad.annex - INFO - 100%
+2025-01-30 02:45:09,605 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:09,605 - datalad.annex - INFO - sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:45:09,872 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s89063200--8d2774a434586cb1b7bc139dcda84ddd589bf7f354565915c02574bc4fa2433f.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:09,875 - datalad.annex - INFO - 0.02%
+2025-01-30 02:45:09,876 - datalad.annex - INFO - 0.02%
+2025-01-30 02:45:09,974 - datalad.annex - INFO - 3.75%
+2025-01-30 02:45:09,974 - datalad.annex - INFO - 3.75%
+2025-01-30 02:45:10,074 - datalad.annex - INFO - 6.44%
+2025-01-30 02:45:10,074 - datalad.annex - INFO - 6.44%
+2025-01-30 02:45:10,174 - datalad.annex - INFO - 9.31%
+2025-01-30 02:45:10,174 - datalad.annex - INFO - 9.31%
+2025-01-30 02:45:10,274 - datalad.annex - INFO - 12.03%
+2025-01-30 02:45:10,274 - datalad.annex - INFO - 12.03%
+2025-01-30 02:45:10,375 - datalad.annex - INFO - 14.62%
+2025-01-30 02:45:10,375 - datalad.annex - INFO - 14.62%
+2025-01-30 02:45:10,475 - datalad.annex - INFO - 18.25%
+2025-01-30 02:45:10,475 - datalad.annex - INFO - 18.25%
+2025-01-30 02:45:10,731 - datalad.annex - INFO - 19.95%
+2025-01-30 02:45:10,731 - datalad.annex - INFO - 19.95%
+2025-01-30 02:45:10,831 - datalad.annex - INFO - 23.57%
+2025-01-30 02:45:10,831 - datalad.annex - INFO - 23.57%
+2025-01-30 02:45:10,931 - datalad.annex - INFO - 26.39%
+2025-01-30 02:45:10,931 - datalad.annex - INFO - 26.39%
+2025-01-30 02:45:11,031 - datalad.annex - INFO - 29.57%
+2025-01-30 02:45:11,031 - datalad.annex - INFO - 29.57%
+2025-01-30 02:45:11,132 - datalad.annex - INFO - 32.53%
+2025-01-30 02:45:11,132 - datalad.annex - INFO - 32.53%
+2025-01-30 02:45:11,232 - datalad.annex - INFO - 35.35%
+2025-01-30 02:45:11,232 - datalad.annex - INFO - 35.35%
+2025-01-30 02:45:11,333 - datalad.annex - INFO - 38.11%
+2025-01-30 02:45:11,333 - datalad.annex - INFO - 38.11%
+2025-01-30 02:45:11,433 - datalad.annex - INFO - 40.85%
+2025-01-30 02:45:11,433 - datalad.annex - INFO - 40.85%
+2025-01-30 02:45:11,534 - datalad.annex - INFO - 44.47%
+2025-01-30 02:45:11,534 - datalad.annex - INFO - 44.47%
+2025-01-30 02:45:11,634 - datalad.annex - INFO - 47.18%
+2025-01-30 02:45:11,634 - datalad.annex - INFO - 47.18%
+2025-01-30 02:45:11,734 - datalad.annex - INFO - 49.99%
+2025-01-30 02:45:11,734 - datalad.annex - INFO - 49.99%
+2025-01-30 02:45:11,834 - datalad.annex - INFO - 53.58%
+2025-01-30 02:45:11,835 - datalad.annex - INFO - 53.58%
+2025-01-30 02:45:11,935 - datalad.annex - INFO - 56.47%
+2025-01-30 02:45:11,935 - datalad.annex - INFO - 56.47%
+2025-01-30 02:45:12,036 - datalad.annex - INFO - 59.28%
+2025-01-30 02:45:12,036 - datalad.annex - INFO - 59.28%
+2025-01-30 02:45:12,136 - datalad.annex - INFO - 61.97%
+2025-01-30 02:45:12,136 - datalad.annex - INFO - 61.97%
+2025-01-30 02:45:12,236 - datalad.annex - INFO - 64.78%
+2025-01-30 02:45:12,236 - datalad.annex - INFO - 64.78%
+2025-01-30 02:45:12,336 - datalad.annex - INFO - 68.35%
+2025-01-30 02:45:12,337 - datalad.annex - INFO - 68.35%
+2025-01-30 02:45:12,437 - datalad.annex - INFO - 70.89%
+2025-01-30 02:45:12,437 - datalad.annex - INFO - 70.89%
+2025-01-30 02:45:12,548 - datalad.annex - INFO - 73.89%
+2025-01-30 02:45:12,548 - datalad.annex - INFO - 73.89%
+2025-01-30 02:45:12,649 - datalad.annex - INFO - 77.16%
+2025-01-30 02:45:12,649 - datalad.annex - INFO - 77.16%
+2025-01-30 02:45:12,749 - datalad.annex - INFO - 80.07%
+2025-01-30 02:45:12,749 - datalad.annex - INFO - 80.07%
+2025-01-30 02:45:12,850 - datalad.annex - INFO - 82.98%
+2025-01-30 02:45:12,850 - datalad.annex - INFO - 82.98%
+2025-01-30 02:45:12,953 - datalad.annex - INFO - 85.81%
+2025-01-30 02:45:12,953 - datalad.annex - INFO - 85.81%
+2025-01-30 02:45:13,066 - datalad.annex - INFO - 89.18%
+2025-01-30 02:45:13,066 - datalad.annex - INFO - 89.18%
+2025-01-30 02:45:13,167 - datalad.annex - INFO - 92.74%
+2025-01-30 02:45:13,167 - datalad.annex - INFO - 92.74%
+2025-01-30 02:45:13,267 - datalad.annex - INFO - 95.41%
+2025-01-30 02:45:13,268 - datalad.annex - INFO - 95.41%
+2025-01-30 02:45:13,368 - datalad.annex - INFO - 98.43%
+2025-01-30 02:45:13,368 - datalad.annex - INFO - 98.43%
+2025-01-30 02:45:13,420 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s89063200--8d2774a434586cb1b7bc139dcda84ddd589bf7f354565915c02574bc4fa2433f.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,420 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s89063200--8d2774a434586cb1b7bc139dcda84ddd589bf7f354565915c02574bc4fa2433f.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,420 - datalad.annex - INFO - 100%
+2025-01-30 02:45:13,422 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:13,422 - datalad.annex - INFO - sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:13,614 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2370--8c0017ed4d6cc949fcb4d66cccc36e219b728e4bba26a4f0150c832956257469.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,615 - datalad.annex - INFO - 100%
+2025-01-30 02:45:13,615 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2370--8c0017ed4d6cc949fcb4d66cccc36e219b728e4bba26a4f0150c832956257469.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,618 - datalad.annex - INFO - sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:13,789 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60459--169d188bbf0e733a0a48f9dcb63e0c8d59f08847ed210a50ccd369fde5833670.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,790 - datalad.annex - INFO - 27.1%
+2025-01-30 02:45:13,790 - datalad.annex - INFO - 27.1%
+2025-01-30 02:45:13,793 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60459--169d188bbf0e733a0a48f9dcb63e0c8d59f08847ed210a50ccd369fde5833670.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,793 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s60459--169d188bbf0e733a0a48f9dcb63e0c8d59f08847ed210a50ccd369fde5833670.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:13,794 - datalad.annex - INFO - 100%
+2025-01-30 02:45:13,798 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:13,798 - datalad.annex - INFO - sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:45:14,059 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s133354200--536c598b7018827e110afeaf8698285bf7f6ce9c1a9dc54d5665be6b9d4ef359.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:14,060 - datalad.annex - INFO - 0.01%
+2025-01-30 02:45:14,060 - datalad.annex - INFO - 0.01%
+2025-01-30 02:45:14,159 - datalad.annex - INFO - 2.67%
+2025-01-30 02:45:14,159 - datalad.annex - INFO - 2.67%
+2025-01-30 02:45:14,259 - datalad.annex - INFO - 4.46%
+2025-01-30 02:45:14,260 - datalad.annex - INFO - 4.46%
+2025-01-30 02:45:14,360 - datalad.annex - INFO - 6.26%
+2025-01-30 02:45:14,360 - datalad.annex - INFO - 6.26%
+2025-01-30 02:45:14,463 - datalad.annex - INFO - 8.04%
+2025-01-30 02:45:14,463 - datalad.annex - INFO - 8.04%
+2025-01-30 02:45:14,581 - datalad.annex - INFO - 10.2%
+2025-01-30 02:45:14,581 - datalad.annex - INFO - 10.2%
+2025-01-30 02:45:14,681 - datalad.annex - INFO - 12.59%
+2025-01-30 02:45:14,681 - datalad.annex - INFO - 12.59%
+2025-01-30 02:45:14,781 - datalad.annex - INFO - 14.39%
+2025-01-30 02:45:14,782 - datalad.annex - INFO - 14.39%
+2025-01-30 02:45:14,882 - datalad.annex - INFO - 16.15%
+2025-01-30 02:45:14,882 - datalad.annex - INFO - 16.15%
+2025-01-30 02:45:14,982 - datalad.annex - INFO - 18%
+2025-01-30 02:45:14,982 - datalad.annex - INFO - 18%
+2025-01-30 02:45:15,108 - datalad.annex - INFO - 20.41%
+2025-01-30 02:45:15,108 - datalad.annex - INFO - 20.41%
+2025-01-30 02:45:15,221 - datalad.annex - INFO - 22.57%
+2025-01-30 02:45:15,221 - datalad.annex - INFO - 22.57%
+2025-01-30 02:45:15,329 - datalad.annex - INFO - 24.66%
+2025-01-30 02:45:15,329 - datalad.annex - INFO - 24.66%
+2025-01-30 02:45:15,444 - datalad.annex - INFO - 26.88%
+2025-01-30 02:45:15,444 - datalad.annex - INFO - 26.88%
+2025-01-30 02:45:15,560 - datalad.annex - INFO - 28.98%
+2025-01-30 02:45:15,561 - datalad.annex - INFO - 28.98%
+2025-01-30 02:45:15,676 - datalad.annex - INFO - 31.09%
+2025-01-30 02:45:15,676 - datalad.annex - INFO - 31.09%
+2025-01-30 02:45:15,776 - datalad.annex - INFO - 33.51%
+2025-01-30 02:45:15,776 - datalad.annex - INFO - 33.51%
+2025-01-30 02:45:15,876 - datalad.annex - INFO - 35.35%
+2025-01-30 02:45:15,876 - datalad.annex - INFO - 35.35%
+2025-01-30 02:45:15,978 - datalad.annex - INFO - 37.24%
+2025-01-30 02:45:15,979 - datalad.annex - INFO - 37.24%
+2025-01-30 02:45:16,078 - datalad.annex - INFO - 39.15%
+2025-01-30 02:45:16,078 - datalad.annex - INFO - 39.15%
+2025-01-30 02:45:16,178 - datalad.annex - INFO - 41.05%
+2025-01-30 02:45:16,179 - datalad.annex - INFO - 41.05%
+2025-01-30 02:45:16,279 - datalad.annex - INFO - 43.37%
+2025-01-30 02:45:16,279 - datalad.annex - INFO - 43.37%
+2025-01-30 02:45:16,379 - datalad.annex - INFO - 45.24%
+2025-01-30 02:45:16,379 - datalad.annex - INFO - 45.24%
+2025-01-30 02:45:16,479 - datalad.annex - INFO - 47.08%
+2025-01-30 02:45:16,480 - datalad.annex - INFO - 47.08%
+2025-01-30 02:45:16,579 - datalad.annex - INFO - 49.02%
+2025-01-30 02:45:16,580 - datalad.annex - INFO - 49.02%
+2025-01-30 02:45:16,687 - datalad.annex - INFO - 50.96%
+2025-01-30 02:45:16,688 - datalad.annex - INFO - 50.96%
+2025-01-30 02:45:16,788 - datalad.annex - INFO - 53.29%
+2025-01-30 02:45:16,788 - datalad.annex - INFO - 53.29%
+2025-01-30 02:45:16,888 - datalad.annex - INFO - 55.29%
+2025-01-30 02:45:16,889 - datalad.annex - INFO - 55.29%
+2025-01-30 02:45:16,989 - datalad.annex - INFO - 57.14%
+2025-01-30 02:45:16,989 - datalad.annex - INFO - 57.14%
+2025-01-30 02:45:17,089 - datalad.annex - INFO - 59.05%
+2025-01-30 02:45:17,090 - datalad.annex - INFO - 59.05%
+2025-01-30 02:45:17,190 - datalad.annex - INFO - 61%
+2025-01-30 02:45:17,190 - datalad.annex - INFO - 61%
+2025-01-30 02:45:17,290 - datalad.annex - INFO - 62.88%
+2025-01-30 02:45:17,290 - datalad.annex - INFO - 62.88%
+2025-01-30 02:45:17,396 - datalad.annex - INFO - 64.69%
+2025-01-30 02:45:17,397 - datalad.annex - INFO - 64.69%
+2025-01-30 02:45:17,497 - datalad.annex - INFO - 67.07%
+2025-01-30 02:45:17,497 - datalad.annex - INFO - 67.07%
+2025-01-30 02:45:17,597 - datalad.annex - INFO - 68.93%
+2025-01-30 02:45:17,597 - datalad.annex - INFO - 68.93%
+2025-01-30 02:45:17,697 - datalad.annex - INFO - 70.77%
+2025-01-30 02:45:17,697 - datalad.annex - INFO - 70.77%
+2025-01-30 02:45:17,797 - datalad.annex - INFO - 72.6%
+2025-01-30 02:45:17,797 - datalad.annex - INFO - 72.6%
+2025-01-30 02:45:17,906 - datalad.annex - INFO - 74.63%
+2025-01-30 02:45:17,906 - datalad.annex - INFO - 74.63%
+2025-01-30 02:45:18,017 - datalad.annex - INFO - 76.84%
+2025-01-30 02:45:18,017 - datalad.annex - INFO - 76.84%
+2025-01-30 02:45:18,127 - datalad.annex - INFO - 78.94%
+2025-01-30 02:45:18,128 - datalad.annex - INFO - 78.94%
+2025-01-30 02:45:18,241 - datalad.annex - INFO - 81.14%
+2025-01-30 02:45:18,241 - datalad.annex - INFO - 81.14%
+2025-01-30 02:45:18,342 - datalad.annex - INFO - 83.58%
+2025-01-30 02:45:18,342 - datalad.annex - INFO - 83.58%
+2025-01-30 02:45:18,442 - datalad.annex - INFO - 85.49%
+2025-01-30 02:45:18,442 - datalad.annex - INFO - 85.49%
+2025-01-30 02:45:18,543 - datalad.annex - INFO - 87.38%
+2025-01-30 02:45:18,543 - datalad.annex - INFO - 87.38%
+2025-01-30 02:45:18,643 - datalad.annex - INFO - 89.46%
+2025-01-30 02:45:18,643 - datalad.annex - INFO - 89.46%
+2025-01-30 02:45:18,743 - datalad.annex - INFO - 91.55%
+2025-01-30 02:45:18,743 - datalad.annex - INFO - 91.55%
+2025-01-30 02:45:18,850 - datalad.annex - INFO - 93.46%
+2025-01-30 02:45:18,850 - datalad.annex - INFO - 93.46%
+2025-01-30 02:45:18,951 - datalad.annex - INFO - 95.6%
+2025-01-30 02:45:18,951 - datalad.annex - INFO - 95.6%
+2025-01-30 02:45:19,051 - datalad.annex - INFO - 97.45%
+2025-01-30 02:45:19,051 - datalad.annex - INFO - 97.45%
+2025-01-30 02:45:19,151 - datalad.annex - INFO - 99.31%
+2025-01-30 02:45:19,151 - datalad.annex - INFO - 99.31%
+2025-01-30 02:45:19,181 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s133354200--536c598b7018827e110afeaf8698285bf7f6ce9c1a9dc54d5665be6b9d4ef359.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,181 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s133354200--536c598b7018827e110afeaf8698285bf7f6ce9c1a9dc54d5665be6b9d4ef359.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,181 - datalad.annex - INFO - 100%
+2025-01-30 02:45:19,183 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:19,183 - datalad.annex - INFO - sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:19,318 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2574--35f4012b02760885b6ab73aacbbef94bc80724239ef6f59498d76c238c8bd4bf.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,319 - datalad.annex - INFO - 100%
+2025-01-30 02:45:19,319 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2574--35f4012b02760885b6ab73aacbbef94bc80724239ef6f59498d76c238c8bd4bf.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,321 - datalad.annex - INFO - sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:19,513 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101422--0f12c049d6748e8b012a635e4b40936aeac65ee858ecb6eb1a3c0640ac94090b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,514 - datalad.annex - INFO - 16.15%
+2025-01-30 02:45:19,514 - datalad.annex - INFO - 16.15%
+2025-01-30 02:45:19,520 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101422--0f12c049d6748e8b012a635e4b40936aeac65ee858ecb6eb1a3c0640ac94090b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,520 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101422--0f12c049d6748e8b012a635e4b40936aeac65ee858ecb6eb1a3c0640ac94090b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,520 - datalad.annex - INFO - 100%
+2025-01-30 02:45:19,524 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:19,524 - datalad.annex - INFO - sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk
+2025-01-30 02:45:19,921 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s132391700--189808c71fa597d3c979dc4fc9db82bc9bedf7f00cbbd62c178b077554ba2a3d.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:19,921 - datalad.annex - INFO - 0.01%
+2025-01-30 02:45:19,921 - datalad.annex - INFO - 0.01%
+2025-01-30 02:45:20,028 - datalad.annex - INFO - 2.97%
+2025-01-30 02:45:20,028 - datalad.annex - INFO - 2.97%
+2025-01-30 02:45:20,128 - datalad.annex - INFO - 5.02%
+2025-01-30 02:45:20,129 - datalad.annex - INFO - 5.02%
+2025-01-30 02:45:20,229 - datalad.annex - INFO - 6.87%
+2025-01-30 02:45:20,229 - datalad.annex - INFO - 6.87%
+2025-01-30 02:45:20,329 - datalad.annex - INFO - 8.85%
+2025-01-30 02:45:20,329 - datalad.annex - INFO - 8.85%
+2025-01-30 02:45:20,430 - datalad.annex - INFO - 10.64%
+2025-01-30 02:45:20,430 - datalad.annex - INFO - 10.64%
+2025-01-30 02:45:20,545 - datalad.annex - INFO - 12.76%
+2025-01-30 02:45:20,545 - datalad.annex - INFO - 12.76%
+2025-01-30 02:45:20,659 - datalad.annex - INFO - 15.03%
+2025-01-30 02:45:20,659 - datalad.annex - INFO - 15.03%
+2025-01-30 02:45:20,759 - datalad.annex - INFO - 17.4%
+2025-01-30 02:45:20,759 - datalad.annex - INFO - 17.4%
+2025-01-30 02:45:20,859 - datalad.annex - INFO - 19.28%
+2025-01-30 02:45:20,859 - datalad.annex - INFO - 19.28%
+2025-01-30 02:45:20,959 - datalad.annex - INFO - 21.08%
+2025-01-30 02:45:20,959 - datalad.annex - INFO - 21.08%
+2025-01-30 02:45:21,059 - datalad.annex - INFO - 23.47%
+2025-01-30 02:45:21,059 - datalad.annex - INFO - 23.47%
+2025-01-30 02:45:21,160 - datalad.annex - INFO - 25.33%
+2025-01-30 02:45:21,160 - datalad.annex - INFO - 25.33%
+2025-01-30 02:45:21,261 - datalad.annex - INFO - 27.07%
+2025-01-30 02:45:21,261 - datalad.annex - INFO - 27.07%
+2025-01-30 02:45:21,365 - datalad.annex - INFO - 29%
+2025-01-30 02:45:21,366 - datalad.annex - INFO - 29%
+2025-01-30 02:45:21,474 - datalad.annex - INFO - 31.1%
+2025-01-30 02:45:21,474 - datalad.annex - INFO - 31.1%
+2025-01-30 02:45:21,590 - datalad.annex - INFO - 33.42%
+2025-01-30 02:45:21,591 - datalad.annex - INFO - 33.42%
+2025-01-30 02:45:21,703 - datalad.annex - INFO - 35.53%
+2025-01-30 02:45:21,703 - datalad.annex - INFO - 35.53%
+2025-01-30 02:45:21,803 - datalad.annex - INFO - 37.99%
+2025-01-30 02:45:21,803 - datalad.annex - INFO - 37.99%
+2025-01-30 02:45:21,903 - datalad.annex - INFO - 39.8%
+2025-01-30 02:45:21,903 - datalad.annex - INFO - 39.8%
+2025-01-30 02:45:22,004 - datalad.annex - INFO - 41.8%
+2025-01-30 02:45:22,005 - datalad.annex - INFO - 41.8%
+2025-01-30 02:45:22,104 - datalad.annex - INFO - 43.71%
+2025-01-30 02:45:22,104 - datalad.annex - INFO - 43.71%
+2025-01-30 02:45:22,205 - datalad.annex - INFO - 45.48%
+2025-01-30 02:45:22,205 - datalad.annex - INFO - 45.48%
+2025-01-30 02:45:22,305 - datalad.annex - INFO - 47.77%
+2025-01-30 02:45:22,305 - datalad.annex - INFO - 47.77%
+2025-01-30 02:45:22,405 - datalad.annex - INFO - 49.62%
+2025-01-30 02:45:22,406 - datalad.annex - INFO - 49.62%
+2025-01-30 02:45:22,511 - datalad.annex - INFO - 51.52%
+2025-01-30 02:45:22,511 - datalad.annex - INFO - 51.52%
+2025-01-30 02:45:22,611 - datalad.annex - INFO - 53.58%
+2025-01-30 02:45:22,611 - datalad.annex - INFO - 53.58%
+2025-01-30 02:45:22,711 - datalad.annex - INFO - 55.53%
+2025-01-30 02:45:22,711 - datalad.annex - INFO - 55.53%
+2025-01-30 02:45:22,812 - datalad.annex - INFO - 57.62%
+2025-01-30 02:45:22,812 - datalad.annex - INFO - 57.62%
+2025-01-30 02:45:22,912 - datalad.annex - INFO - 59.6%
+2025-01-30 02:45:22,912 - datalad.annex - INFO - 59.6%
+2025-01-30 02:45:23,012 - datalad.annex - INFO - 61.55%
+2025-01-30 02:45:23,012 - datalad.annex - INFO - 61.55%
+2025-01-30 02:45:23,112 - datalad.annex - INFO - 63.41%
+2025-01-30 02:45:23,113 - datalad.annex - INFO - 63.41%
+2025-01-30 02:45:23,213 - datalad.annex - INFO - 65.48%
+2025-01-30 02:45:23,213 - datalad.annex - INFO - 65.48%
+2025-01-30 02:45:23,313 - datalad.annex - INFO - 67.5%
+2025-01-30 02:45:23,313 - datalad.annex - INFO - 67.5%
+2025-01-30 02:45:23,413 - datalad.annex - INFO - 69.26%
+2025-01-30 02:45:23,413 - datalad.annex - INFO - 69.26%
+2025-01-30 02:45:23,519 - datalad.annex - INFO - 71.27%
+2025-01-30 02:45:23,519 - datalad.annex - INFO - 71.27%
+2025-01-30 02:45:23,619 - datalad.annex - INFO - 73.61%
+2025-01-30 02:45:23,620 - datalad.annex - INFO - 73.61%
+2025-01-30 02:45:23,719 - datalad.annex - INFO - 75.55%
+2025-01-30 02:45:23,719 - datalad.annex - INFO - 75.55%
+2025-01-30 02:45:23,819 - datalad.annex - INFO - 77.38%
+2025-01-30 02:45:23,820 - datalad.annex - INFO - 77.38%
+2025-01-30 02:45:23,937 - datalad.annex - INFO - 79.36%
+2025-01-30 02:45:23,937 - datalad.annex - INFO - 79.36%
+2025-01-30 02:45:24,037 - datalad.annex - INFO - 81.82%
+2025-01-30 02:45:24,037 - datalad.annex - INFO - 81.82%
+2025-01-30 02:45:24,137 - datalad.annex - INFO - 83.54%
+2025-01-30 02:45:24,137 - datalad.annex - INFO - 83.54%
+2025-01-30 02:45:24,246 - datalad.annex - INFO - 85.6%
+2025-01-30 02:45:24,246 - datalad.annex - INFO - 85.6%
+2025-01-30 02:45:24,346 - datalad.annex - INFO - 87.7%
+2025-01-30 02:45:24,346 - datalad.annex - INFO - 87.7%
+2025-01-30 02:45:24,446 - datalad.annex - INFO - 89.56%
+2025-01-30 02:45:24,447 - datalad.annex - INFO - 89.56%
+2025-01-30 02:45:24,547 - datalad.annex - INFO - 91.39%
+2025-01-30 02:45:24,547 - datalad.annex - INFO - 91.39%
+2025-01-30 02:45:24,653 - datalad.annex - INFO - 93.33%
+2025-01-30 02:45:24,653 - datalad.annex - INFO - 93.33%
+2025-01-30 02:45:24,754 - datalad.annex - INFO - 95.66%
+2025-01-30 02:45:24,754 - datalad.annex - INFO - 95.66%
+2025-01-30 02:45:24,855 - datalad.annex - INFO - 97.58%
+2025-01-30 02:45:24,855 - datalad.annex - INFO - 97.58%
+2025-01-30 02:45:24,955 - datalad.annex - INFO - 99.57%
+2025-01-30 02:45:24,955 - datalad.annex - INFO - 99.57%
+2025-01-30 02:45:24,973 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s132391700--189808c71fa597d3c979dc4fc9db82bc9bedf7f00cbbd62c178b077554ba2a3d.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:24,973 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg', 'input': ['.'], 'key': 'SHA256E-s132391700--189808c71fa597d3c979dc4fc9db82bc9bedf7f00cbbd62c178b077554ba2a3d.eeg', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:24,973 - datalad.annex - INFO - 100%
+2025-01-30 02:45:24,975 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:24,975 - datalad.annex - INFO - sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg
+2025-01-30 02:45:25,139 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2580--816e4276eaca844fee4e300e5aff8bc866ed17693f5e2a8ebe8ab9f053c1112f.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:25,139 - datalad.annex - INFO - 100%
+2025-01-30 02:45:25,140 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr', 'input': ['.'], 'key': 'SHA256E-s2580--816e4276eaca844fee4e300e5aff8bc866ed17693f5e2a8ebe8ab9f053c1112f.vhdr', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:25,143 - datalad.annex - INFO - sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr
+2025-01-30 02:45:25,362 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101411--cfa6d1439836d130f430061619308709932f97a3f229f6cd3bd4aad1d746c41b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:25,363 - datalad.annex - INFO - 16.16%
+2025-01-30 02:45:25,363 - datalad.annex - INFO - 16.16%
+2025-01-30 02:45:25,373 - datalad.annex - INFO - Finished annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101411--cfa6d1439836d130f430061619308709932f97a3f229f6cd3bd4aad1d746c41b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:25,373 - datalad.annex - INFO - Start annex action: {'command': 'get', 'file': 'sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk', 'input': ['.'], 'key': 'SHA256E-s101411--cfa6d1439836d130f430061619308709932f97a3f229f6cd3bd4aad1d746c41b.vmrk', 'note': 'from s3-PUBLIC...'}
+2025-01-30 02:45:25,374 - datalad.annex - INFO - 100%
+2025-01-30 02:45:25,379 - datalad.annex - INFO - Finished annex action: None
+2025-01-30 02:45:25,379 - datalad.annex - INFO - Finished annex get

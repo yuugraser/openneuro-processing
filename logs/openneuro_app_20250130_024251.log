@@ -1,0 +1,18 @@
+2025-01-30 02:42:51,297 - root - INFO - Starting OpenNeuro Desktop Application
+2025-01-30 02:42:51,298 - root - CRITICAL - Fatal error during application startup: [Errno 13] Permission denied: '/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691/.git/annex/objects/QQ/qz/SHA256E-s2162--46860061c7faf6100bc60887e39a62f6267c94d23fd77514ff8d59304eb959c9.vhdr'
+Traceback (most recent call last):
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 82, in main
+    initialize_app()
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 71, in initialize_app
+    cleanup_temp()
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/config.py", line 42, in cleanup_temp
+    shutil.rmtree(TEMP_DIR)
+  File "/Users/janinegraser/miniconda3/lib/python3.12/shutil.py", line 759, in rmtree
+    _rmtree_safe_fd(stack, onexc)
+  File "/Users/janinegraser/miniconda3/lib/python3.12/shutil.py", line 703, in _rmtree_safe_fd
+    onexc(func, path, err)
+  File "/Users/janinegraser/miniconda3/lib/python3.12/shutil.py", line 700, in _rmtree_safe_fd
+    onexc(os.unlink, fullname, err)
+  File "/Users/janinegraser/miniconda3/lib/python3.12/shutil.py", line 698, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+PermissionError: [Errno 13] Permission denied: '/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/temp/ds005691/.git/annex/objects/QQ/qz/SHA256E-s2162--46860061c7faf6100bc60887e39a62f6267c94d23fd77514ff8d59304eb959c9.vhdr'

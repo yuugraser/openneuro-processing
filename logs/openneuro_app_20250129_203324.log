@@ -1,0 +1,32 @@
+2025-01-29 20:33:24,930 - root - INFO - Starting OpenNeuro Desktop Application
+2025-01-29 20:33:24,967 - root - CRITICAL - Fatal error during application startup: git-annex error: git-annex version 10.20250115 is too old. Version >= 8.20200309 required
+
+Please install git-annex >= 8.20200309:
+
+macOS (with Homebrew):
+    brew install git-annex
+
+Ubuntu/Debian:
+    sudo apt-get install git-annex
+
+For more information, visit:
+http://handbook.datalad.org/r.html?install
+Traceback (most recent call last):
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 82, in main
+    initialize_app()
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 72, in initialize_app
+    check_dependencies()
+  File "/Users/janinegraser/PycharmProjects/openneuro_preprocessing_API/openneuro_app/main.py", line 56, in check_dependencies
+    raise RuntimeError(error_msg)
+RuntimeError: git-annex error: git-annex version 10.20250115 is too old. Version >= 8.20200309 required
+
+Please install git-annex >= 8.20200309:
+
+macOS (with Homebrew):
+    brew install git-annex
+
+Ubuntu/Debian:
+    sudo apt-get install git-annex
+
+For more information, visit:
+http://handbook.datalad.org/r.html?install
